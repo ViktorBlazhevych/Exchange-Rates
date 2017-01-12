@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="NBUEntities" syncable="YES">
+        <attribute name="dateAsID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="euroBuy" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="euroName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rurBuy" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rurName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usdBuy" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="usdName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PrivatEntities" representedClassName="PrivatEntities" syncable="YES">
+        <attribute name="dateAsID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="euroBuy" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="euroName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="euroSale" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rurBuy" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rurName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rurSale" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="usdBuy" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="usdName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usdSale" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="NBUEntities" positionX="-3537" positionY="-396" width="128" height="150"/>
+        <element name="PrivatEntities" positionX="-3303" positionY="-400" width="126" height="193"/>
+    </elements>
+</model>
